@@ -87,6 +87,34 @@ public class test2
     
     //////////////////////////////////////////////making functions//////////////////////////////////////////////
     hello("name",5);
+    
+    
+    //////////////////////////////////////////////OOP-create object//////////////////////////////////////////////
+    
+    //define object - [object file name / obj name (for in this code)]
+    text_object test_object = new text_object();
+    
+    //print object's value
+    System.out.print("\nobject_value : "+test_object.inherited_value_2);
+    
+    //use object's function
+    test_object.inherited_function();
+    
+    
+    
+    
+    //////////////////////////////////////////////Constructor//////////////////////////////////////////////
+    
+    //define object - [object file name / obj name (for in this code)]
+    constructor test_const1 = new constructor("My name1", 64);
+    constructor test_const2 = new constructor("My name2", 32);
+    
+    //print object's value
+    System.out.print("\nconst_value1 : "+test_const1.name);
+    System.out.print("\nconst_value2 : "+test_const2.name);
+    
+    //get total constructor number
+    System.out.print("\nconst_numbers : "+constructor.total_const_num);
     }
     
     //////////////////////////////////////////////making functions//////////////////////////////////////////////
